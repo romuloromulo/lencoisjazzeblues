@@ -1,8 +1,8 @@
-import { Poppins } from "next/font/google";
+import { Mukta } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 
-const inter = Poppins({
+const inter = Mukta({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
 });
