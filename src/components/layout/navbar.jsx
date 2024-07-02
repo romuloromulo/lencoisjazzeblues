@@ -30,20 +30,38 @@ export default function Navbar() {
         <div id="MenuMeio">
           <ul className="text-neutral-50 text-xl font-bold flex space-x-4">
             <Link href="/">
-              <li className={pathname === "/" ? "text-red-500" : ""}>Home</li>
+              <li
+                className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
+                  pathname === "/" ? "text-red-500" : ""
+                }`}
+              >
+                Home
+              </li>
             </Link>
             <Link href="/sobre">
-              <li className={pathname === "/sobre" ? "text-red-500 " : ""}>
+              <li
+                className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
+                  pathname === "/sobre" ? "text-red-500" : ""
+                }`}
+              >
                 Sobre
               </li>
             </Link>
             <Link href="/atracoes">
-              <li className={pathname === "/atracoes" ? "text-red-500" : ""}>
+              <li
+                className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
+                  pathname === "/atracoes" ? "text-red-500" : ""
+                }`}
+              >
                 Atrações
               </li>
             </Link>
             <Link href="/programacao">
-              <li className={pathname === "/programacao" ? "text-red-500" : ""}>
+              <li
+                className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
+                  pathname === "/programacao" ? "text-red-500" : ""
+                }`}
+              >
                 Programação
               </li>
             </Link>
@@ -54,7 +72,7 @@ export default function Navbar() {
             href="https://www.instagram.com/lencoisfestival/"
             target="_blank"
           >
-            <div className="bg-pink-500 border-2 border-pink-500  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] duration-300 hover:text-white ease-out">
+            <div className="bg-pink-500 border-2 border-pink-500 rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] duration-300 hover:text-white ease-out">
               <SiInstagram size={22} />
             </div>
           </Link>
