@@ -3,6 +3,7 @@ import ImageBg from "../../public/dunas.png";
 import LogoFestival from "../../public/Logo1.png";
 import Link from "next/link";
 import Shows from "@/components/sections/shows";
+import Oficinas from "@/components/sections/oficinas";
 
 export default function Home() {
   return (
@@ -80,6 +81,7 @@ export default function Home() {
         </div>
       </section>
       <Shows />
+      <Oficinas />
     </main>
   );
 }
