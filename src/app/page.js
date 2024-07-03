@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <div className="w-full mx-auto sm:w-full md:w-[12rem] h-auto flex justify-center items-center">
               <Link href="/programacao">
-                <div className=" bg-gradient-to-br from-purple-600 to-blue-500  hover:bg-transparent hover:text-zinc-100 rounded-lg w-full sm:w-[12rem] py-4 px-8 flex justify-center items-center text-2xl font-bold text-white text-center duration-300 ease-out hover:-translate-y-[15%]">
+                <div className="bg-gradient-to-r from-orange-500 via-primary-pink to-primary-yellow hover:bg-transparent hover:text-zinc-100 rounded-lg w-full sm:w-[12rem] py-4 px-8 flex justify-center items-center text-2xl font-bold text-white text-center duration-300 ease-out hover:-translate-y-[15%]">
                   Programação
                 </div>
               </Link>

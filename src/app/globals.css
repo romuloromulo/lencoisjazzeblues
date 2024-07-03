@@ -75,8 +75,20 @@
   }
 }
 
+/* Animação padrão */
 .animate-slide {
   animation: 40s slide linear infinite;
+}
+
+/* Animação mais rápida para dispositivos móveis */
+@media (max-width: 768px) {
+  .animate-slide {
+    animation: 20s slide linear infinite; /* Ajuste a duração da animação conforme necessário */
+  }
+}
+
+.animate-paused {
+  animation-play-state: paused;
 }
 
 @keyframes slide {
@@ -86,4 +98,8 @@
   to {
     transform: translateX(-100%);
   }
+}
+
+.flex-nowrap:hover {
+  animation-play-state: paused;
 }

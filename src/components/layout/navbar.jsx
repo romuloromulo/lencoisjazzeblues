@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { SiInstagram, SiFacebook } from "react-icons/si";
+import { SiInstagram, SiFacebook, SiYoutube } from "react-icons/si";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { IoMenu } from "react-icons/io5";
 import Logo from "../../../public/logoSemSax.png";
@@ -32,7 +32,7 @@ export default function Navbar() {
             <Link href="/">
               <li
                 className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
-                  pathname === "/" ? "text-red-500" : ""
+                  pathname === "/" ? "text-orange-500" : ""
                 }`}
               >
                 Home
@@ -41,7 +41,7 @@ export default function Navbar() {
             <Link href="/sobre">
               <li
                 className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
-                  pathname === "/sobre" ? "text-red-500" : ""
+                  pathname === "/sobre" ? "text-orange-500" : ""
                 }`}
               >
                 Sobre
@@ -50,7 +50,7 @@ export default function Navbar() {
             <Link href="/atracoes">
               <li
                 className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
-                  pathname === "/atracoes" ? "text-red-500" : ""
+                  pathname === "/atracoes" ? "text-orange-500" : ""
                 }`}
               >
                 Atrações
@@ -59,7 +59,7 @@ export default function Navbar() {
             <Link href="/programacao">
               <li
                 className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
-                  pathname === "/programacao" ? "text-red-500" : ""
+                  pathname === "/programacao" ? "text-orange-500" : ""
                 }`}
               >
                 Programação
@@ -72,7 +72,7 @@ export default function Navbar() {
             href="https://www.instagram.com/lencoisfestival/"
             target="_blank"
           >
-            <div className="bg-pink-500 border-2 border-pink-500 rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] duration-300 hover:text-white ease-out">
+            <div className="bg-yellow-400 border-2 border-yellow-400  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] duration-300 hover:text-white ease-out">
               <SiInstagram size={22} />
             </div>
           </Link>
@@ -82,6 +82,14 @@ export default function Navbar() {
           >
             <div className="bg-yellow-400 border-2 border-yellow-400 rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white duration-300 ease-out">
               <SiFacebook size={22} />
+            </div>
+          </Link>
+          <Link
+            href="https://www.youtube.com/@lencoisjazzebluesfestival"
+            target="_blank"
+          >
+            <div className="bg-yellow-400 border-2 border-yellow-400 rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white duration-300 ease-out">
+              <SiYoutube size={22} />
             </div>
           </Link>
         </div>
