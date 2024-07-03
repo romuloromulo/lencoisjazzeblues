@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div className="pb-8">
               <div className="text-zinc-100 text-3xl md:text-4xl lg:flex-col lg:flex">
-                <span className="font-bold md:text-7xl text-primary-pink md:font-bold text-4xl">
+                <span className="font-bold md:text-7xl text-4xl bg-gradient-to-r from-primary-yellow to-primary-pink bg-clip-text text-transparent">
                   Barreirinhas:
                 </span>
                 <div>
