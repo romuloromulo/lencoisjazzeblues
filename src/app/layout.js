@@ -1,10 +1,10 @@
-import { Mukta } from "next/font/google";
+import { Arsenal } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 
-const inter = Mukta({
+const inter = Arsenal({
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["400", "700"],
 });
 
 export const metadata = {
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="pt">
       <body className={inter.className}>
         <Navbar />
-        {children}
+        <div className="mt-24 sm:mt-0">{children}</div>
       </body>
     </html>
   );

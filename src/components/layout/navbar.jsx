@@ -28,7 +28,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div id="MenuMeio">
-          <ul className="text-neutral-50 text-xl font-bold flex space-x-4">
+          <ul className="text-neutral-50 text-2xl font-bold flex space-x-4">
             <Link href="/">
               <li
                 className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
@@ -88,6 +88,7 @@ export default function Navbar() {
       </nav>
 
       <nav
+        id="Mobile menu"
         className={`transition-transform duration-500 ease-out transform ${
           !openNav ? "translate-y-0" : "-translate-y-full"
         } flex px-2 sm:hidden shadow-sm items-center fixed justify-between w-full h-24 bg-neutral-900 cursor-pointer`}
@@ -107,6 +108,7 @@ export default function Navbar() {
       </nav>
 
       <div
+        id="Mobile dropdown menu"
         className={`fixed left-0 top-0 w-screen sm:hidden h-full bg-neutral-900 z-50 p-10 overflow-hidden transition-transform duration-500 ease-out ${
           openNav ? "transform translate-y-0" : "transform -translate-y-full"
         }`}
@@ -122,7 +124,7 @@ export default function Navbar() {
           />
           <AiOutlineClose size={30} className="text-white font-bold" />
         </div>
-        <ul className="flex min-w-[12rem] text-xl flex-col mt-8 font-bold text-zinc-200 gap-2">
+        <ul className="flex min-w-[12rem] text-2xl flex-col mt-8 font-bold text-zinc-200 gap-2">
           <Link href="/">
             <li
               className={`p-4 hover:bg-neutral-800/80 rounded-md ${
