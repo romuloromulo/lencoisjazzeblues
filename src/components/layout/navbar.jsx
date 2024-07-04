@@ -97,7 +97,7 @@ export default function Navbar() {
 
       <nav
         id="Mobile menu"
-        className={`transition-transform duration-500 ease-out transform ${
+        className={`transition-transform duration-500 ease-out transform z-50 ${
           !openNav ? "translate-y-0" : "-translate-y-full"
         } flex px-2 sm:hidden shadow-sm items-center fixed justify-between w-full h-24 bg-neutral-900 cursor-pointer`}
         style={{ top: 0 }}
