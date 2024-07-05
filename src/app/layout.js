@@ -1,6 +1,6 @@
 import { Arsenal } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/navbar";
+import Navbar from "../components/layout/navbar";
 
 const inter = Arsenal({
   subsets: ["latin"],

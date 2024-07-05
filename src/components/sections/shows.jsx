@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { atracoes } from "@/data";
+import { atracoes } from "../../data/index";
 import Link from "next/link";
 
 function Shows() {

@@ -2,8 +2,8 @@ import Image from "next/image";
 import ImageBg from "../../public/dunas.png";
 import LogoFestival from "../../public/Logo1.png";
 import Link from "next/link";
-import Shows from "@/components/sections/shows";
-import Oficinas from "@/components/sections/oficinas";
+import Shows from "../components/sections/shows";
+import Oficinas from "../components/sections/oficinas";
 
 export default function Home() {
   return (
