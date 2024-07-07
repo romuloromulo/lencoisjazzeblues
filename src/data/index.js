@@ -134,7 +134,7 @@ Sued Richarllys irá apresentar o seu show "Thank God", conceituado por ele como
     estado: "SP",
   },
   {
-    id: "JeffersonGonçalveseTaryn Szpilman",
+    id: "JeffersonGonçalveseTarynSzpilman",
     nome: "Jefferson Gonçalves e Taryn Szpilman",
     release: `
 E quem chega em grande e respaldado na primeira noite do LENÇÓIS INSTRUMENTAL 2024, como duas atrações que já deixaram os seus nomes registrados nessa trajetória de 15 anos do festival, são Jefferson Gonçalves e Taryn Szpilman. A história musical da dupla parece seguir caminhos distintos, mas as aparências enganam, lembre-se. Jefferson Gonçalves, gaitista, deixou o Rio de Janeiro para se embrenhar nas sonoridades do Nordeste. Levou a tiracolo o nome firmemente fincado no mais importante momento do Blues brasileiro, dos anos 1990 para os anos 2000, se tornando uma referência não só como instrumentista da complexa e encantadora harmônica - reconhecido e aplaudido em palcos da Europa à África, passando obrigatoriamente pela América Latina inteira. Nessa trajetória, que soma mais de 30 anos, estabeleceu parcerias valorosas e se destacou também como compositor e produtor. O som de Jefferson é uma assinatura nítida que ele oferece aos ouvintes.
@@ -156,7 +156,7 @@ Estranho será perder a oportunidade de acompanhar a rica convergência da gaita
     estado: "RJ",
   },
   {
-    id: " DiegoReis",
+    id: "DiegoReis",
     nome: "Diego Reis",
     release: `
 Diego Serra é ludovicense, mas também barreirense devido ao título concedido pela prefeitura de Barreirinhas em 2022. Além de cantor e compositor, ele é líder do Movimento Negro de Barreirinhas e Atins, produtor e mobilizador cultural, diretor audiovisual, professor de música e membro da Academia Barreirinhense de Letras, Artes e Ciências (ABLAC).

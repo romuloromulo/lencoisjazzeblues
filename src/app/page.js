@@ -31,7 +31,7 @@ export default function Home() {
           <div className="text-center flex flex-col mx-auto -mt-4 sm:mt-6">
             <div className="mt-8 flex flex-col items-center w-auto">
               <div className="text-zinc-100 text-3xl md:text-4xl lg:flex-col lg:flex">
-                <span className="font-bold md:text-7xl text-4xl bg-gradient-to-r from-primary-pink to-primary-yellow bg-clip-text text-transparent">
+                <span className="font-bold md:text-7xl text-5xl bg-gradient-to-r from-primary-pink to-primary-yellow bg-clip-text text-transparent">
                   São Luís:
                 </span>
                 <div>
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className="pb-8">
               <div className="text-zinc-100 text-3xl md:text-4xl lg:flex-col lg:flex">
-                <span className="font-bold md:text-7xl text-4xl bg-gradient-to-r from-primary-yellow to-primary-pink bg-clip-text text-transparent">
+                <span className="font-bold md:text-7xl text-5xl bg-gradient-to-r from-primary-yellow to-primary-pink bg-clip-text text-transparent">
                   Barreirinhas:
                 </span>
                 <div>
