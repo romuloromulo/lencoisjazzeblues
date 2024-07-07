@@ -12,7 +12,7 @@ function Atrações() {
     item.imagem !== "" ? (
       <div
         key={index}
-        className="flex flex-col items-center justify-center text-center font-semibold text-zinc-100 text-sm  bg-background-primary rounded-lg"
+        className="flex flex-col items-center justify-center text-center font-semibold text-zinc-100 text-sm pb-2 bg-background-primary rounded-lg"
       >
         <div className="z-10 rounded-md w-full items-center justify-center  h-[300px] flex verflow-hidden   mb-2 relative">
           <Link href={`atracoes/${item?.id}`} className="group ">
@@ -37,16 +37,20 @@ function Atrações() {
             </motion.div>
           </Link>
         </div>
-        <Link
-          href={`atracoes/${item?.id}`}
-          className="flex-col items-center justify-center"
-        >
-          <div className="text-lg text-background-white hover:text-zinc-100 hover:-translate-y-2 duration-300">
-            {item?.nome}
-          </div>{" "}
-        </Link>
-        <div className="text-background-white">{item?.estado}</div>
-        <div className="border-b mt-1 border-zinc-700 w-[2rem]" />
+        <div className="flex items-center justify-between space-x-4 py-4">
+          <Link
+            href={`atracoes/${item?.id}`}
+            className="flex items-center justify-center"
+          >
+            <div className="text-lg text-background-white hover:text-zinc-100 hover:-translate-y-2 duration-300">
+              {item?.nome}
+            </div>{" "}
+          </Link>
+
+          <div className="text-primary-pink text-lg">({item?.estado})</div>
+        </div>
+
+        {/* <div className="border-b mt-1 border-zinc-700 w-[2rem]" /> */}
       </div>
     ) : null
   );
