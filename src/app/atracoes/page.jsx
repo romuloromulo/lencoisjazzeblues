@@ -2,7 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import { atracoes } from "../../data/index";
-import bg from "../../../public/dunas.png";
+import trompete from "../../../public/trompete.png";
+import violao from "../../../public/violão.png";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -11,26 +12,28 @@ function Atrações() {
     item.imagem !== "" ? (
       <div
         key={index}
-        className="flex flex-col items-center justify-center text-center font-semibold text-zinc-100 text-sm bg-background-primary rounded-lg"
+        className="flex flex-col items-center justify-center text-center font-semibold text-zinc-100 text-sm  bg-background-primary rounded-lg"
       >
-        <div className="z-10 rounded-md w-[300px] bg-blue-300 h-[300px] flex items-center justify-center overflow-hidden m-1 mb-2 relative">
+        <div className="z-10 rounded-md w-full items-center justify-center  h-[300px] flex verflow-hidden   mb-2 relative">
           <Link href={`atracoes/${item?.id}`} className="group ">
             <Image
               src={item?.imagem}
               alt={`Foto de ${item?.nome}`}
               layout="fill"
               objectFit="cover"
-              className="shadow-lg"
+              className="shadow-lg rounded-md"
               loading="lazy"
               placeholder="blur"
-              sizes="(max-width: 750px)50vw, (max-width:1200px) 30vw, 20vw"
+              // sizes="(max-width: 750px)50vw, (max-width:1200px) 30vw, 20vw"
             />
             <motion.div
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
               className="bg-black bg-opacity-70 absolute h-full w-full top-0 left-0 transition-opacity flex justify-center items-center"
             >
-              <div className="bg-yellow-500 p-2 rounded-lg">Saiba mais</div>
+              <div className="bg-background-primary p-2 rounded-lg">
+                Saiba mais
+              </div>
             </motion.div>
           </Link>
         </div>
@@ -57,18 +60,25 @@ function Atrações() {
       id="Atrações"
       className="min-h-screen relative pb-10 bg-background-white"
     >
-      <div className=" w-full flex items-center justify-center flex-col">
-        <div className="px-6 my-12 py-2 bg-background-primary rounded-full">
-          <div className="text-5xl md:text-6xl font-bold   z-30 mb-1 w-full text-background-white">
-            Shows
-          </div>
+      <div className="px-6 mb-12 py-2 w-auto sm:w-full overflow-hidden justify-between bg-background-primary flex items-center md:justify-center">
+        <Image src={violao} alt="" width={100} height={100} />
+        <div className="text-5xl md:text-7xl font-bold  w-2/3  z-30 mb text-background-white">
+          Shows
+        </div>
 
-          {/* <h2 className="text-md font-light text-white text-center w-full relative z-30">
+        {/* <h2 className="text-md font-light text-white text-center w-full relative z-30">
               Conheça as atrações dessa edição!
             </h2> */}
-        </div>
-        {/* <div className="w-full border-b border-black/50 mb-8"></div> */}
+        <Image
+          src={trompete}
+          alt=""
+          width={200}
+          height={200}
+          className="h-14 translate-y-10 sm:h-auto sm:translate-y-0"
+        />
       </div>
+      {/* <div className="w-full border-b border-black/50 mb-8"></div> */}
+
       <div className="container mx-auto z-30 grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center items-center">
         {renderAtraçoes}
       </div>
