@@ -133,8 +133,9 @@ Sued Richarllys irá apresentar o seu show "Thank God", conceituado por ele como
     instagram: "https://www.instagram.com/ana_canas/",
     estado: "SP",
   },
+
   {
-    id: "JeffersonGonçalveseTarynSzpilman",
+    id: "JeffersorETaryn",
     nome: "Jefferson Gonçalves e Taryn Szpilman",
     release: `
 E quem chega em grande e respaldado na primeira noite do LENÇÓIS INSTRUMENTAL 2024, como duas atrações que já deixaram os seus nomes registrados nessa trajetória de 15 anos do festival, são Jefferson Gonçalves e Taryn Szpilman. A história musical da dupla parece seguir caminhos distintos, mas as aparências enganam, lembre-se. Jefferson Gonçalves, gaitista, deixou o Rio de Janeiro para se embrenhar nas sonoridades do Nordeste. Levou a tiracolo o nome firmemente fincado no mais importante momento do Blues brasileiro, dos anos 1990 para os anos 2000, se tornando uma referência não só como instrumentista da complexa e encantadora harmônica - reconhecido e aplaudido em palcos da Europa à África, passando obrigatoriamente pela América Latina inteira. Nessa trajetória, que soma mais de 30 anos, estabeleceu parcerias valorosas e se destacou também como compositor e produtor. O som de Jefferson é uma assinatura nítida que ele oferece aos ouvintes.
