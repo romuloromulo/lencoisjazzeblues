@@ -60,7 +60,7 @@ function Page({ params }) {
               </div>
             </div>
           </div>
-          <div className="flex text-center w-full flex-col md:flex-row   items-center bg-blue mt-2">
+          <div className="flex text-center w-full flex-col lg:flex-row   items-center bg-blue mt-2">
             <div className="text-4xl text-center  md:text-left md:text-5xl font-bold text-background-primary z-20 ">
               {artista.nome}
             </div>
