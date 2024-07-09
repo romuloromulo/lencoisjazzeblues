@@ -25,7 +25,7 @@ function Page({ params }) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, x: -100 }}
       transition={{ duration: 1 }}
-      className="min-h-screen  mx-auto md:pb-24 bg-background-white relative -z-0"
+      className="min-h-screen  mx-auto md:pb-24 bg-green-800 relative -z-0"
     >
       <Image
         src={bg}

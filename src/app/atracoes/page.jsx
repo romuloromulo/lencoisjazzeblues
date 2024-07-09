@@ -12,7 +12,7 @@ function Atrações() {
     item.imagem !== "" ? (
       <div
         key={index}
-        className="flex flex-col items-center justify-center min-w-[400px] text-center font-semibold text-zinc-100 text-sm pb-2 bg-background-primary rounded-lg"
+        className="flex flex-col items-center justify-center md:min-w-[400px] text-center font-semibold text-zinc-100 text-sm pb-2 bg-background-primary rounded-lg"
       >
         <div className="z-10 rounded-md w-full items-center justify-center  h-[300px]  flex verflow-hidden   mb-2 relative">
           <Link href={`atracoes/${item?.id}`} className="group ">
@@ -64,8 +64,8 @@ function Atrações() {
       id="Atrações"
       className="min-h-screen relative pb-10 bg-background-white"
     >
-      <div className="px-6 mb-12 py-2 w-auto sm:w-full overflow-hidden justify-between bg-background-primary flex items-center md:justify-center">
-        <Image src={violao} alt="" width={100} height={100} />
+      <div className="px-6 mb-12 py-2 sm:w-full overflow-hidden justify-between bg-background-primary flex items-center md:justify-center">
+        <Image src={violao} alt="" width={90} height={90} />
         <div className="text-5xl md:text-7xl font-bold  w-2/3  z-30 mb text-background-white">
           Shows
         </div>
@@ -76,8 +76,8 @@ function Atrações() {
         <Image
           src={trompete}
           alt=""
-          width={200}
-          height={200}
+          width={180}
+          height={180}
           className="h-14 translate-y-10 sm:h-auto sm:translate-y-0"
         />
       </div>
