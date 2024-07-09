@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <div id="NavBar">
-      <nav className="w-full lg:px-15 bg-neutral-900 h-24 z-50 p-10 justify-between items-center px-10 hidden sm:flex">
+      <nav className="w-full lg:px-15 bg-neutral-900 h-24 z-50 p-10 justify-between items-center px-10 hidden md:flex">
         <div id="MenuEsquerda">
           <Link href="/">
             <Image src={Logo} width={150} height={35} alt="Logo Culturarte" />
@@ -108,7 +108,7 @@ export default function Navbar() {
         id="Mobile menu"
         className={`transition-transform duration-500 ease-out transform z-50 ${
           !openNav ? "translate-y-0" : "-translate-y-full"
-        } flex px-2 sm:hidden shadow-sm items-center fixed justify-between w-full h-24 bg-neutral-900 cursor-pointer`}
+        } flex px-2 md:hidden shadow-sm items-center fixed justify-between w-full h-24 bg-neutral-900 cursor-pointer`}
         style={{ top: 0 }}
       >
         <Link href="/" className="">
@@ -126,7 +126,7 @@ export default function Navbar() {
 
       <div
         id="Mobile dropdown menu"
-        className={`fixed left-0 top-0 w-screen sm:hidden h-full bg-neutral-900 z-50 p-10 overflow-hidden transition-transform duration-500 ease-out ${
+        className={`fixed left-0 top-0 w-screen md:hidden h-full bg-neutral-900 z-50 p-10 overflow-hidden transition-transform duration-500 ease-out ${
           openNav ? "transform translate-y-0" : "transform -translate-y-full"
         }`}
         onClick={handleNav}

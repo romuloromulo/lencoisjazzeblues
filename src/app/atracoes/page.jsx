@@ -6,6 +6,7 @@ import trompete from "../../../public/trompete.png";
 import violao from "../../../public/violão.png";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import BannerComponent from "../../components/layout/banner";
 
 function Atrações() {
   const renderAtraçoes = atracoes.map((item, index) =>
@@ -64,23 +65,8 @@ function Atrações() {
       id="Atrações"
       className="min-h-screen relative pb-10 bg-background-white"
     >
-      <div className="px-6 mb-12 py-2 sm:w-full overflow-hidden justify-between bg-background-primary flex items-center md:justify-center">
-        <Image src={violao} alt="" width={90} height={90} />
-        <div className="text-5xl md:text-7xl font-bold  w-2/3  z-30 mb text-background-white">
-          Shows
-        </div>
+      <BannerComponent title="Shows" />
 
-        {/* <h2 className="text-md font-light text-white text-center w-full relative z-30">
-              Conheça as atrações dessa edição!
-            </h2> */}
-        <Image
-          src={trompete}
-          alt=""
-          width={180}
-          height={180}
-          className="h-14 translate-y-10 sm:h-auto sm:translate-y-0"
-        />
-      </div>
       {/* <div className="w-full border-b border-black/50 mb-8"></div> */}
 
       <div className="container mx-auto z-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 justify-center items-center">

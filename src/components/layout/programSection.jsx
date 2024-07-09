@@ -16,7 +16,7 @@ const ProgramSection = ({ id, title, date, program }) => (
         </h1>
         <p className="text-md sm:text-lg font-semibold">{date}</p>
       </div>
-      <ul className="flex flex-col space-x-4 md:flex-row p-4 rounded-xl  items-start z-10">
+      <ul className="flex flex-col md:space-x-4 md:flex-row p-4 rounded-xl  items-start z-10">
         {program.map((dia) => (
           <li key={dia.diaSemana} className="md:w-1/2">
             <div className="items-center w-full gap-2 mb-2">
@@ -33,7 +33,7 @@ const ProgramSection = ({ id, title, date, program }) => (
                 {dia.local}
               </h2>
             </div>
-            <ul className=" md:ml-2 mb-6 text-xl md:text-2xl ">
+            <ul className="  mb-6 text-xl md:text-2xl ">
               {dia.eventos.map((evento) => (
                 <li key={evento.titulo} className="mb-2 font-bold">
                   <span className="font-bold">{evento.hora} </span>-{" "}

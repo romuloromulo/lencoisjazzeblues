@@ -19,12 +19,12 @@ function page() {
 
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="p-4 bg-background-primary rounded-full shadow-sm mb-8">
-          <h1 className="text-4xl font-bold text-background-white">
+          <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-background-white">
             15 anos de Lençóis Jazz e Blues
           </h1>
         </div>
-        <div className="w-[80%] flex flex-col justify-center items-center mb-24">
-          <p className="text-xl font-bold text-background-primary/80">
+        <div className="w-[95%] md:w-[80%] flex flex-col justify-center items-center mb-24">
+          <p className="text-lg md:text-xl  font-bold text-background-primary/80">
             Democrático, inclusivo e diverso, o Lençóis Instrumental 2024
             celebra os 15 anos do Lençóis Jazz e Blues Festival com boas
             atrações musicais e entrada gratuita. O festival será realizado dias
@@ -49,12 +49,12 @@ function page() {
             através da Lei Federal de Incentivo à Cultura. Realização: Tutuca
             Viana Produções.
           </p>
-          <div className="max-w-[80%] p-4 bg-background-primary rounded-full shadow-sm mb-8 relative mt-8">
-            <h1 className="text-4xl font-bold text-background-white text-center">
+          <div className="md:max-w-[80%] p-4 bg-background-primary rounded-full shadow-sm mb-8 relative mt-8">
+            <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-background-white whitespace-nowrap">
               Histórico do Lençóis Jazz e Blues Festival
             </h1>
           </div>
-          <p className="text-xl font-bold text-background-primary/80">
+          <p className="text-lg  md:text-xl  font-bold text-background-primary/80">
             Há 15 anos, em 2009, nasceu em Barreirinhas o Lençóis Jazz e Blues
             Festival, pioneiro no Maranhão e o primeiro do gênero na cidade sob
             o comando do músico maranhense Tutuca Viana. O festival se
