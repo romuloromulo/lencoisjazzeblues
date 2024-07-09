@@ -55,6 +55,7 @@ module.exports = {
         "secondary-pink": "#FF91A2",
         "neutral-pink": "#FFA589",
         "primary-orange": "#FFBE74",
+        "secondary-orange": "#fe5126",
         mustarda: "#FFDB69",
         "primary-yellow": "#ffbd2b",
         "background-primary": "#120d11",

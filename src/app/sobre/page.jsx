@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import trompete from "../../../public/trompete.png";
 import violao from "../../../public/violão.png";
+import BannerComponent from "../../components/layout/banner";
 function page() {
   return (
     <div className="w-full">
@@ -14,20 +15,8 @@ function page() {
         objectFit="cover"
         fill={true}
       /> */}
+      <BannerComponent title="O Festival" />
 
-      <div className="px-6 mb-12 py-2 w-auto sm:w-full overflow-hidden justify-between bg-background-primary flex items-center md:justify-center">
-        <Image src={violao} alt="" width={100} height={100} />
-        <div className="text-5xl md:text-7xl font-bold w-2/3 z-30 mb text-background-white">
-          O Festival
-        </div>
-        <Image
-          src={trompete}
-          alt=""
-          width={200}
-          height={200}
-          className="h-14 translate-y-10 sm:h-auto sm:translate-y-0"
-        />
-      </div>
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="p-4 bg-background-primary rounded-full shadow-sm mb-8">
           <h1 className="text-4xl font-bold text-background-white">
