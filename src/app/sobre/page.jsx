@@ -44,13 +44,13 @@ function page() {
             Feira Cultural DELAS na área externa da Concha Acústica em São Luís.
             A edição de 15 anos do Lençóis Instrumental 2024 começa em 1º de
             agosto no Teatro Arthur Azevedo. A abertura ocorrerá às 18h com o
-            lançamento do livro/álbum "O Legado dos Lençóis Jazz & Blues
-            Festival" exclusivo para convidados, no Teatro Arthur Azevedo,
-            localizado na Rua do Sol, Centro Histórico de São Luís. O evento
-            principal começa às 20h com entrada solidária: troque seu ingresso
-            por 1 kg de alimento não perecível. O Lençóis Instrumental 2024
-            reunirá atrações nacionais e locais em São Luís e Barreirinhas. No
-            line-up, nomes como Hercules Gomes, Hamilton de Holanda, Renato
+            lançamento do livro/álbum &quot;O Legado dos Lençóis Jazz &amp;
+            Blues Festival&quot; exclusivo para convidados, no Teatro Arthur
+            Azevedo, localizado na Rua do Sol, Centro Histórico de São Luís. O
+            evento principal começa às 20h com entrada solidária: troque seu
+            ingresso por 1 kg de alimento não perecível. O Lençóis Instrumental
+            2024 reunirá atrações nacionais e locais em São Luís e Barreirinhas.
+            No line-up, nomes como Hercules Gomes, Hamilton de Holanda, Renato
             Borghetti, Ana Cañas, Zeca Baleiro, Rodrigo Suricato, Seu
             Raimundinho, Ruy Mário, Andrezinho, Jefferson e Taryn Spilmann,
             entre outros. Em seus 15 anos, o festival realiza oficinas para
