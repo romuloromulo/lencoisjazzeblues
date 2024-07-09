@@ -1,6 +1,7 @@
 import { Arsenal } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/layout/navbar";
+import Footer from "../components/layout/footer";
 
 const inter = Arsenal({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <div className="mt-24 sm:mt-0">{children}</div>
+        <Footer />
       </body>
     </html>
   );

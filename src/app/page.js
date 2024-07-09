@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <section
         id="Header"
-        className="relative container mx-auto min-h-screen bg-background-primary pb-4"
+        className="relative container mx-auto min-h-screen bg-background-primary py-4"
       >
         {/* <Image
           src={ImageBg}
@@ -83,7 +83,6 @@ export default function Home() {
       </section>
       <Shows />
       <Oficinas />
-      <Footer />
     </main>
   );
 }

@@ -33,7 +33,7 @@ function Programação() {
       <div className="px-6 mb-12 py-2 w-auto sm:w-full overflow-hidden justify-between bg-background-primary flex items-center md:justify-center">
         <Image src={violao} alt="" width={100} height={100} />
         <div className="text-5xl md:text-7xl font-bold w-2/3 z-30 mb text-background-white">
-          Shows
+          Programação
         </div>
         <Image
           src={trompete}
