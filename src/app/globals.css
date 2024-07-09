@@ -77,7 +77,7 @@
 
 /* Animação padrão */
 .animate-slide {
-  animation: 40s slide linear infinite;
+  animation: 20s slide linear infinite;
 }
 
 /* Animação mais rápida para dispositivos móveis */

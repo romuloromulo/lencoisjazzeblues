@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ImageBg from "../../../public/dunas.png";
+import Link from "next/link";
 
 function Oficinas() {
   return (
@@ -19,10 +20,14 @@ function Oficinas() {
       /> */}
       <div className="sm:container mx-auto flex flex-col items-center justify-center z-10">
         <div className="sm:p-4  rounded-full shadow-sm mt-20">
-          <h1 className="text-6xl text-yellow-50 font-bold  ">Oficinas</h1>
+          <h1 className="text-6xl font-bold p-4 b bg-gradient-to-r from-primary-yellow to-primary-pink rounded-full opacity-90 z-0">
+            <span className="font-bold md:text-7xl text-5xl text-background-white z-10">
+              Oficinas
+            </span>
+          </h1>
         </div>
         <div className=" rounded-lg px-4 md:px-8 py-4 mt-8 w-full  md:w-[90%]">
-          <p className="text-xl font-bold text-background-white/80">
+          <p className="text-2xl font-bold text-background-white/80">
             O festival também promoverá oficinas de música em São Luís e
             Barreirinhas, oferecendo experiências enriquecedoras para estudantes
             e professores de música. Em São Luís, na Escola de Música do Estado
@@ -37,6 +42,11 @@ function Oficinas() {
             alunos e professores do IFMA Campus.
           </p>
         </div>
+        <Link href="/oficinas">
+          <div className="bg-gradient-to-r from-orange-500 via-primary-pink to-primary-yellow hover:bg-transparent hover:text-zinc-100 rounded-lg w-full sm:w-[12rem] py-4 px-8 flex justify-center items-center text-2xl font-bold text-white text-center duration-300 ease-out hover:-translate-y-[15%]">
+            Saber mais
+          </div>
+        </Link>
       </div>
     </section>
   );

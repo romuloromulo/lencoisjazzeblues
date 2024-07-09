@@ -7,10 +7,10 @@ function Shows() {
   return (
     <section
       id="Shows"
-      className="relative bg-background-white mx-auto min-h-svh pb-8"
+      className="relative bg-background-white mx-auto min-h-svh pb-12 md:pb-20"
     >
       <div className="w-full flex items-center justify-center">
-        <div className="p-4 bg-background-primary rounded-full shadow-sm mt-20">
+        <div className="p-4 px-6 bg-background-primary rounded-full shadow-sm mt-12">
           <p className="text-6xl text-yellow-50 font-bold">Shows</p>
         </div>
       </div>
