@@ -4,13 +4,14 @@ import LogoFestival from "../../public/Logo1.png";
 import Link from "next/link";
 import Shows from "../components/sections/shows";
 import Oficinas from "../components/sections/oficinas";
+import Footer from "../components/layout/footer";
 
 export default function Home() {
   return (
     <main>
       <section
         id="Header"
-        className="relative container mx-auto min-h-screen bg-background-primary"
+        className="relative container mx-auto min-h-screen bg-background-primary pb-4"
       >
         {/* <Image
           src={ImageBg}
@@ -82,6 +83,7 @@ export default function Home() {
       </section>
       <Shows />
       <Oficinas />
+      <Footer />
     </main>
   );
 }

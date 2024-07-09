@@ -72,7 +72,7 @@ export default function Navbar() {
             href="https://www.instagram.com/lencoisfestival/"
             target="_blank"
           >
-            <div className="bg-yellow-400 border-2 border-yellow-400  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] duration-300 hover:text-white ease-out">
+            <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
               <SiInstagram size={22} />
             </div>
           </Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
             href="https://www.facebook.com/LencoisJazzBluesFestival"
             target="_blank"
           >
-            <div className="bg-yellow-400 border-2 border-yellow-400 rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white duration-300 ease-out">
+            <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
               <SiFacebook size={22} />
             </div>
           </Link>
@@ -88,7 +88,7 @@ export default function Navbar() {
             href="https://www.youtube.com/@lencoisjazzebluesfestival"
             target="_blank"
           >
-            <div className="bg-yellow-400 border-2 border-yellow-400 rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white duration-300 ease-out">
+            <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
               <SiYoutube size={22} />
             </div>
           </Link>

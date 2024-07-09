@@ -4,12 +4,15 @@ import FooterP from "../../../public/images/logos/patrocineo-footer.jpeg";
 import patrocineo from "../../../public/images/Layout/marcas-1.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
-import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
+import Logo from "../../../public/Logo.png";
 import Link from "next/link";
 
 function Footer() {
   return (
-    <section id="Footer" className="flex flex-col items-center">
+    <section
+      id="Footer"
+      className="flex flex-col items-center bg-background-primary"
+    >
       <div id="Imagem" className="container">
         <div className="relative w-full mx-auto md:container mt-8 md:mt-32  p-0  md:p-8">
           <Image
@@ -36,16 +39,8 @@ function Footer() {
         <div className="w-auto flex flex-col items-start justify-center">
           <div className="w-auto">
             <Link href="/">
-              <Image src={Logo} width={200} height={200} />{" "}
+              <Image src={Logo} width={200} height={200} alt="logo" />{" "}
             </Link>
-          </div>
-          <div className="text-center text-zinc-100 ">
-            <h1 className="font-semibold text-sm">
-              Música <span className="text-red-600">•</span> Culinária{" "}
-              <span className="text-orange-500">•</span> Artesanato{" "}
-              <span className="text-purple-600">•</span> Artes Visuais{" "}
-              <span className="text-yellow-500">•</span> Literatura{" "}
-            </h1>
           </div>
         </div>
         <div className="flex flex-col">
@@ -59,7 +54,7 @@ function Footer() {
               href="https://www.instagram.com/culturarte_maranhao/"
               target="_blank"
             >
-              <div className="bg-red-600 border-2 border-red-600  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300  hover:text-white ease-out">
+              <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
                 <SiInstagram size={22} />
               </div>
             </Link>
@@ -67,7 +62,7 @@ function Footer() {
               href="hhttps://www.facebook.com/LencoisJazzBluesFestival"
               target="_blank"
             >
-              <div className="bg-yellow-400 border-2 border-yellow-400  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white  duration-300 ease-out">
+              <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
                 <SiFacebook size={22} />
               </div>
             </Link>
@@ -83,18 +78,18 @@ function Footer() {
         </div>
       </div>
       <div className="border-t w-full border-zinc-900 my-10" />
-      <div className="container mx-auto flex flex-col items-center justify-center p-8 text-zinc-100 text-sm md:text-base ">
+      <div className="container mx-auto flex flex-col items-center justify-center p-8 text-zinc-100 text-sm  ">
         <div>
           Site desenvolvido por{" "}
           <Link
             href="https://portfolio-romulo.vercel.app/"
-            className="hover:text-red-500 font-semibold duration-300 underline"
+            className="hover:text-primary-pink duration-300 underline"
             target="_blank"
           >
             Rômulo Viana
           </Link>
         </div>
-        © Culturarte Maranhão.
+        © Lençois Intrumental
       </div>
     </section>
   );
