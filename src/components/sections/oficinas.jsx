@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ImageBg from "../../../public/dunas.png";
 import Link from "next/link";
+import BannerComponent from "../layout/banner";
 
 function Oficinas() {
   return (
@@ -9,15 +10,6 @@ function Oficinas() {
       id="Shows"
       className="relative bg-background-primary mx-auto min-h-svh pb-8 overflow-hidden z-20" // Adicione overflow-hidden para evitar que a imagem vaze para fora da seção
     >
-      {/* <Image alt="" src={ImageBg} className="absolute -z-10" fill={true} /> */}
-      {/* <Image
-        src={ImageBg}
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-        className="pointer-events-none" // Adicione pointer-events-none para que a imagem não capture eventos de clique
-        priority // Adicione priority para garantir que a imagem seja carregada primeiro
-      /> */}
       <div className="sm:container mx-auto flex flex-col items-center justify-center z-10">
         <div className="sm:p-4  rounded-full shadow-sm mt-20">
           <h1 className="text-6xl font-bold p-4 b bg-gradient-to-r from-primary-yellow to-primary-pink rounded-full opacity-90 z-0">

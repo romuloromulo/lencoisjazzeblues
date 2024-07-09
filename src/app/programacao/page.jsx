@@ -18,15 +18,15 @@ function Programação() {
       exit={{ opacity: 0, x: -100 }}
       transition={{ duration: 1 }}
       id="Atrações"
-      className="min-h-screen relative pb-10 bg-background-primary/20"
+      className="min-h-screen relative pb-10 bg-background-white"
     >
-      <Image
+      {/* <Image
         src={bg}
         alt=""
         className="absolute -z-10 opacity-20"
         objectFit="cover"
         fill={true}
-      />
+      /> */}
 
       <BannerComponent title="Programação" />
 

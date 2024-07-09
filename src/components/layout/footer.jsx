@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import FooterP from "../../../public/images/logos/patrocineo-footer.jpeg";
-import patrocineo from "../../../public/images/Layout/marcas-1.png";
+// import FooterP from "../../../public/images/logos/patrocineo-footer.jpeg";
+import patrocinio from "../../../public/patrocinio2.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
 import Logo from "../../../public/Logo.png";
@@ -16,19 +16,20 @@ function Footer() {
       <div id="Imagem" className="container">
         <div className="relative w-full mx-auto md:container mt-8 md:mt-32  p-0  md:p-8">
           <Image
-            src={patrocineo}
-            className="object-cover md:object-contain hidden sm:block"
+            src={patrocinio}
+            className="object-cover md:object-contain sm:block w-ful"
             loading="lazy"
-            sizes="(max-width: 750px)100vw, (max-width:1200px)100vw"
+            width={1500}
+            // sizes="(max-width: 750px)100vw, (max-width:1200px)100vw"
             alt=""
           />
-          <Image
+          {/* <Image
             src={FooterP}
             className="object-cover md:object-contain sm:hidden"
             loading="lazy"
             sizes="(max-width: 750px)100vw, (max-width:1200px) 40vw, 30vw"
             alt=""
-          />
+          /> */}
         </div>
       </div>
       <div className="border-t w-full border-zinc-900 my-10" />
