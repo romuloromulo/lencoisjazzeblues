@@ -32,7 +32,7 @@ function Page() {
           {workshop.oficinas.map((oficina, index) => (
             <div
               key={index}
-              className="md:w-[80%] border-gray-500/20 border-b rounded-md shadow-sm md:px-8 py-2 "
+              className="w-full border-gray-500/20 border-b rounded-md shadow-sm md:px-8 py-2 "
             >
               <div className="text-2xl font-bold">
                 <p>Data: {oficina.data}</p>
@@ -40,7 +40,7 @@ function Page() {
               </div>
               <div className="mt-2">
                 <div
-                  className={`cursor-pointer text-2xl font-bold flex items-center justify-center outline-none transition-transform duration-300 ${
+                  className={`cursor-pointer text-2xl font-bold w-full flex items-center justify-center outline-none transition-transform duration-300 ${
                     openDetails[`${workshopIndex}-${index}`]
                       ? "transform rotate-180"
                       : ""
