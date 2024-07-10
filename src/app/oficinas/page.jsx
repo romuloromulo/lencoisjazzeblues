@@ -24,7 +24,13 @@ function Page() {
       <div className="p-4 text-center md:text-start  md:px-6 bg-background-primary  rounded-full shadow-sm ">
         <h1 className="text-3xl md:text-8xl font-bold text-background-white md:px-8 flex justify-between items-center">
           {cityName}
-          <Image src={teste} alt="" width={80} height={80} className="ml-8" />
+          <Image
+            src={teste}
+            alt=""
+            width={50}
+            height={50}
+            className="ml-8 w-12 md:w-20" // w-12 = 50px, w-20 = 80px
+          />
         </h1>
       </div>
       {workshops.map((workshop, workshopIndex) => (
@@ -35,12 +41,12 @@ function Page() {
           {workshop.oficinas.map((oficina, index) => (
             <div
               key={index}
-              className="w-full border-gray-500/20 border-b rounded-md shadow-sm md:px-8 py-2 "
+              className="w-full mb-8 border-gray-500/20 border-b rounded-md shadow-sm md:px-8 py-2 "
             >
-              <div className="text-2xl font-bold">
+              <div className="text-2xl font-semibold">
+                <p>Oficineiro: {oficina.oficineiro}</p>
                 <p>Data: {oficina.data}</p>
                 <p>Horário: {oficina.horario}</p>
-                <p>Oficineiro: {oficina.oficineiro}</p>
               </div>
               <div className="mt-2">
                 <div
@@ -65,8 +71,8 @@ function Page() {
                       : "0px",
                   }}
                 >
-                  <div className="py-2 text-xl font-bold">
-                    <p>{oficina.descricao}</p>
+                  <div className="py-2 text-xl font-bold mb-12">
+                    <p className>{oficina.descricao}</p>
 
                     <p>Inscrição: {oficina.inscricao}</p>
                   </div>
