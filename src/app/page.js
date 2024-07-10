@@ -13,6 +13,18 @@ export default function Home() {
         id="Header"
         className="relative container mx-auto min-h-screen bg-background-primary py-4"
       >
+        <div className="mx-auto w-full text-zinc-100  flex-col  flex text-center items-center justify-center">
+          <div className="md:flex-row flex flex-col font-bold  ">
+            <span className="text-md md:text-lg z-10 ">
+              Ministério da Cultura{" "}
+            </span>{" "}
+            <span className="text-md md:text-lg ml-1  z-10">
+              {" "}
+              E Instituto Cultural Vale
+            </span>
+          </div>
+          <div className="z-10 font-thin"> apresentam</div>
+        </div>
         {/* <Image
           src={ImageBg}
           alt="Background"

@@ -36,6 +36,7 @@ function Page() {
             >
               <div className="text-2xl font-bold">
                 <p>Data: {oficina.data}</p>
+                <p>Horário: {oficina.horario}</p>
                 <p>Oficineiro: {oficina.oficineiro}</p>
               </div>
               <div className="mt-2">
