@@ -11,28 +11,29 @@ export default function Home() {
     <main>
       <section
         id="Header"
-        className="relative container mx-auto min-h-screen bg-background-primary py-4"
+        className="relative container mx-auto min-h-screen bg-background-secondary py-4"
       >
-        <div className="mx-auto w-full text-zinc-100  flex-col  flex text-center items-center justify-center">
-          <div className="md:flex-row flex flex-col font-bold  ">
-            <span className="text-md md:text-lg z-10 ">
-              Ministério da Cultura{" "}
-            </span>{" "}
-            <span className="text-md md:text-lg ml-1  z-10">
-              {" "}
+        <div className="absolute inset-0 z-0">
+          {/* <Image
+            src={ImageBg}
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            className=""
+          /> */}
+        </div>
+        <div className="relative z-10 mx-auto w-full text-zinc-100 flex-col flex text-center items-center justify-center">
+          <div className="md:flex-row flex flex-col font-bold">
+            <span className="text-md md:text-lg z-10">
+              Ministério da Cultura
+            </span>
+            <span className="text-md md:text-lg ml-1 z-10">
               E Instituto Cultural Vale
             </span>
           </div>
-          <div className="z-10 font-thin"> apresentam</div>
+          <div className="font-thin">apresentam</div>
         </div>
-        {/* <Image
-          src={ImageBg}
-          alt="Background"
-          layout="fill"
-          objectFit="cover"
-          className="-z-10"
-        /> */}
-        <div className="w-full flex flex-col md:flex-row items-center justify-center sm:space-x-36">
+        <div className="relative z-20 w-full flex flex-col md:flex-row items-center justify-center sm:space-x-36">
           <div>
             <Image
               src={LogoFestival}
@@ -41,7 +42,7 @@ export default function Home() {
               height={450}
             />
           </div>
-          <div className="text-center flex flex-col mx-auto -mt-4 sm:mt-6">
+          <div className="text-center flex flex-col mx-auto -mt-4 sm:mt-6 z-50">
             <div className="mt-8 flex flex-col items-center w-auto">
               <div className="text-zinc-100 text-3xl md:text-4xl lg:flex-col lg:flex">
                 <span className="font-bold md:text-7xl text-5xl bg-gradient-to-r from-primary-pink to-primary-yellow bg-clip-text text-transparent">
@@ -51,9 +52,15 @@ export default function Home() {
                   <b> 1 e 3 </b> de Agosto
                 </div>
                 <div className="text-xl font-semibold mt-2">
-                  <span className="">Local:</span>{" "}
                   <Link
-                    href="https://maps.app.goo.gl/a12pcFR1EUSSfjVn6"
+                    href="https://maps.app.goo.gl/SsRw2ZXmehowb6sf7"
+                    className="font-bold hover:text-purple-600 hover:underline duration-300"
+                    target="_blank"
+                  >
+                    Teatro Arthur Azevedo e{" "}
+                  </Link>
+                  <Link
+                    href="https://maps.app.goo.gl/uiLdkW1BR7ajqKWq9"
                     className="font-bold hover:text-purple-600 hover:underline duration-300"
                     target="_blank"
                   >
@@ -68,10 +75,9 @@ export default function Home() {
                   Barreirinhas:
                 </span>
                 <div>
-                  <b> 9 e 10 </b>de Novembro
+                  <b> 9 e 10 </b> de Novembro
                 </div>
                 <div className="text-xl mt-1">
-                  <span className="font-semibold">Local:</span>{" "}
                   <Link
                     href="https://maps.app.goo.gl/BT7DB95nGz2vNzsg7"
                     target="_blank"

@@ -11,7 +11,7 @@ const BannerComponent = ({ title }) => {
         height={100}
         className="absolute left-10"
       />
-      <div className="text-5xl md:text-7xl font-bold w-2/3 z-30 mb text-background-white">
+      <div className="text-5xl whitespace-nowrap md:text-7xl font-bold w-2/3 z-30 mb text-background-white">
         {title}
       </div>
       <Image

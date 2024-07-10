@@ -55,10 +55,11 @@ module.exports = {
         "secondary-pink": "#FF91A2",
         "neutral-pink": "#FFA589",
         "primary-orange": "#FFBE74",
-        "secondary-orange": "#fe5126",
+        "secondary-orange": "#FF4222",
         mustarda: "#FFDB69",
         "primary-yellow": "#ffbd2b",
         "background-primary": "#120d11",
+        "background-secondary": "#1d5839",
         "background-white": "#fff9ed",
         "background-nav": "#1a1200",
         green: "#34b946", // Adiciona a cor verde

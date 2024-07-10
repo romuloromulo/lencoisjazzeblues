@@ -11,28 +11,27 @@ function Footer() {
   return (
     <section
       id="Footer"
-      className="flex flex-col items-center bg-background-primary"
+      className="flex flex-col items-center bg-background-secondary"
     >
-      <div id="Imagem" className="container">
-        <div className="relative w-full mx-auto md:container mt-8 md:mt-32  p-0  md:p-8">
-          <Image
-            src={patrocinio}
-            className="object-cover md:object-contain sm:block w-ful"
-            loading="lazy"
-            width={1500}
-            // sizes="(max-width: 750px)100vw, (max-width:1200px)100vw"
-            alt=""
-          />
-          {/* <Image
+      <div className="relative w-full md:containermd:mt-32  p-0 bg-transparent  md:p-8">
+        <Image
+          src={patrocinio}
+          className="object-cover md:object-contain sm:block w-ful"
+          loading="lazy"
+          width={1500}
+          // sizes="(max-width: 750px)100vw, (max-width:1200px)100vw"
+          alt=""
+        />
+        {/* <Image
             src={FooterP}
             className="object-cover md:object-contain sm:hidden"
             loading="lazy"
             sizes="(max-width: 750px)100vw, (max-width:1200px) 40vw, 30vw"
             alt=""
           /> */}
-        </div>
       </div>
-      <div className="border-t w-full border-zinc-900 my-10" />
+
+      <div className=" w-full my-5" />
       <div
         id="Teste"
         className="container mt-2 px-4 mx-auto text-white text-2xl grid-cols-2  md:grid-cols-3 gap-4 md:gap-0 grid justify-items-center items-start "

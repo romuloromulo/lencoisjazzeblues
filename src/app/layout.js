@@ -1,11 +1,11 @@
-import { Arsenal } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/layout/navbar";
 import Footer from "../components/layout/footer";
 
-const inter = Arsenal({
+const inter = Raleway({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "300", "200", "700"],
 });
 
 export const metadata = {

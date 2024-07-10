@@ -7,7 +7,7 @@ import violao from "../../../public/violão.png";
 import BannerComponent from "../../components/layout/banner";
 function page() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-background-white ">
       {/* <Image
         src={bg}
         alt=""
@@ -49,9 +49,9 @@ function page() {
             através da Lei Federal de Incentivo à Cultura. Realização: Tutuca
             Viana Produções.
           </p>
-          <div className="md:max-w-[80%] p-4 bg-background-primary rounded-full shadow-sm mb-8 relative mt-8">
-            <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-background-white whitespace-nowrap">
-              Histórico do Lençóis Jazz e Blues Festival
+          <div className=" p-4 bg-background-primary rounded-full shadow-sm mb-8 relative mt-8">
+            <h1 className="text-lg sm:text-3xl md:text-4xl font-bold text-background-white whitespace-nowrap">
+              Histórico
             </h1>
           </div>
           <p className="text-lg  md:text-xl  font-bold text-background-primary/80">
