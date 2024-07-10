@@ -30,7 +30,7 @@ function Programação() {
       /> */}
 
       <BannerComponent title="Programação" />
-      <Image src={prog} alt="" width={400} height={400} />
+      {/* <Image src={prog} alt="" width={400} height={400} /> */}
       <ProgramSection
         id="São Luís"
         title="São Luís"

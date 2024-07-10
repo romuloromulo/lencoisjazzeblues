@@ -18,7 +18,7 @@ function page() {
       <BannerComponent title="O Festival" />
 
       <div className="container mx-auto flex flex-col justify-center items-center">
-        <div className="p-4 bg-background-primary rounded-full shadow-sm mb-8">
+        <div className="p-4 bg-background-secondary rounded-full shadow-sm mb-8">
           <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-background-white">
             15 anos de Lençóis Jazz e Blues
           </h1>
@@ -49,7 +49,7 @@ function page() {
             através da Lei Federal de Incentivo à Cultura. Realização: Tutuca
             Viana Produções.
           </p>
-          <div className=" p-4 bg-background-primary rounded-full shadow-sm mb-8 relative mt-8">
+          <div className=" p-4 bg-background-secondary rounded-full shadow-sm mb-8 relative mt-8">
             <h1 className="text-lg sm:text-3xl md:text-4xl font-bold text-background-white whitespace-nowrap">
               Histórico
             </h1>

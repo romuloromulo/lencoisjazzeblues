@@ -11,7 +11,7 @@ function Footer() {
   return (
     <section
       id="Footer"
-      className="flex flex-col items-center bg-background-secondary"
+      className="flex flex-col items-center bg-background-primary"
     >
       <div className="relative w-full md:containermd:mt-32  p-0 bg-transparent  md:p-8">
         <Image

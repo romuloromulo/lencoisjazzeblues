@@ -6,6 +6,8 @@ import {
   saoLuisWorkshops,
   barreirinhasWorkshops,
 } from "../../data/dataOficinas";
+import Image from "next/image";
+import teste from "../../../public/azuleijo2.png";
 
 function Page() {
   const [openDetails, setOpenDetails] = useState({});
@@ -20,8 +22,9 @@ function Page() {
   const renderWorkshops = (workshops, cityName) => (
     <div className="mt-12 w-full ">
       <div className="p-4 text-center md:text-start  md:px-6 bg-background-primary  rounded-full shadow-sm ">
-        <h1 className="text-3xl md:text-8xl font-bold text-background-white md:px-8">
+        <h1 className="text-3xl md:text-8xl font-bold text-background-white md:px-8 flex justify-between items-center">
           {cityName}
+          <Image src={teste} alt="" width={80} height={80} className="ml-8" />
         </h1>
       </div>
       {workshops.map((workshop, workshopIndex) => (
