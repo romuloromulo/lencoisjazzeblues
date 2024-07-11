@@ -44,6 +44,7 @@ function Page() {
               className="w-full mb-8 border-gray-500/20 border-b rounded-md shadow-sm md:px-8 py-2 "
             >
               <div className="text-2xl font-semibold">
+                <p className="text-3xl mb-2 font-bold">{oficina.titulo}</p>
                 <p>Oficineiro: {oficina.oficineiro}</p>
                 <p>Data: {oficina.data}</p>
                 <p>Horário: {oficina.horario}</p>

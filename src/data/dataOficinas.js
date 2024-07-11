@@ -20,7 +20,7 @@ export const saoLuisWorkshops = [
         oficineiro: "Rodrigo Suricato",
         descricao: "Músico e artista integrante da Banda Barão Vermelho",
         data: "02/08/2024",
-        horario: "09:30h às 12:00h",
+        horario: "09:30h às 11:30h",
         publicoAlvo:
           "Estudantes e professores de música de instituições públicas (EMEM, UFMA, UEMA, SESC, EMBMM...)",
         inscricao:
