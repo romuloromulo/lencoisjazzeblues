@@ -83,7 +83,7 @@
 /* Animação mais rápida para dispositivos móveis */
 @media (max-width: 768px) {
   .animate-slide {
-    animation: 10s slide linear infinite; /* Ajuste a duração da animação conforme necessário */
+    animation: 5s slide linear infinite; /* Ajuste a duração da animação conforme necessário */
   }
 }
 

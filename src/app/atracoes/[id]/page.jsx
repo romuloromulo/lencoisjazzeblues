@@ -154,18 +154,18 @@ function Page({ params }) {
             )}
           </ul>
         </div>
-        <div className="flex items-center w-full justify-between text-sm md:hidden">
+        <div className="px-6 flex items-center w-full justify-between text-sm md:hidden mb-8">
           <div>
             <Link href="/atracoes">
-              <div className="px-2 w-auto p-2 mt-8 bg-yellow-500 border-2 border-yellow-500 text-black rounded-full hover:bg-transparent hover:-translate-y-2 hover:text-yellow-500 duration-300 cursor-pointer">
-                {"<"} Outras Atrações
+              <div className="px-4 font-semibold w-auto p-2 mt-8 bg-background-secondary border-2 text-background-white  rounded-full hover:bg-transparent hover:-translate-y-2 hover:text-yellow-500 duration-300 cursor-pointer">
+                Outras Atrações
               </div>
             </Link>
           </div>
           <div>
             <Link href="/programacao">
-              <div className="px-2 p-2 mt-8 bg-purple-600 border-2 border-purple-600 text-black rounded-full hover:bg-transparent hover:-translate-y-2 hover:text-purple-600 duration-300 cursor-pointer">
-                Programação completa {">"}
+              <div className="px-4 font-semibold p-2 mt-8 bg-purple-600  bg-primary-pink text-background-white rounded-full hover:bg-transparent hover:-translate-y-2 hover:text-purple-600 duration-300 cursor-pointer">
+                Programação completa
               </div>
             </Link>
           </div>
