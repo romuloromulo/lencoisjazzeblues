@@ -7,6 +7,10 @@ import hamiltonTrio from "./artistas/hamiltonTrio.jpg";
 import sued from "./artistas/sued.jpeg";
 import diegoReis from "./artistas/diegoReis.jpeg";
 import rodrigoSuricato from "./artistas/rodrigoSuricato.jpeg";
+import pedroSobrinho from "./artistas/pedro.jpeg";
+import vanessaSerra from "./artistas/vanessaserra.jpeg";
+import jorgeChoairy from "./artistas/jorgechaory.jpeg";
+import joaquinZion from "./artistas/joaquinzion.jpeg";
 
 export {
   herculesGomes,
@@ -18,4 +22,8 @@ export {
   sued,
   diegoReis,
   rodrigoSuricato,
+  pedroSobrinho,
+  vanessaSerra,
+  joaquinZion,
+  jorgeChoairy,
 };

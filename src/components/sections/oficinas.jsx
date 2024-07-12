@@ -8,7 +8,7 @@ function Oficinas() {
   return (
     <section
       id="Shows"
-      className="relative bg-background-primary mx-auto min-h-svh pb-12 overflow-hidden z-20" // Adicione overflow-hidden para evitar que a imagem vaze para fora da seção
+      className="relative bg-background-primary mx-auto min-h-svh pb-20 overflow-hidden z-20" // Adicione overflow-hidden para evitar que a imagem vaze para fora da seção
     >
       <div className="sm:container mx-auto flex flex-col items-center justify-center z-10">
         <div className="sm:p-4  rounded-full shadow-sm my-12">

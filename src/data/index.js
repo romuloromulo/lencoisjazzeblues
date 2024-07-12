@@ -8,6 +8,10 @@ import {
   sued,
   diegoReis,
   rodrigoSuricato,
+  pedroSobrinho,
+  vanessaSerra,
+  joaquinZion,
+  jorgeChoairy,
 } from "../../public/images/index";
 
 export const atracoes = [
@@ -204,5 +208,61 @@ Artista plural, Baleiro também se dedica à literatura, cinema e teatro. Escrev
     instagram: "https://www.instagram.com/zbaleiro/",
     estado: "MA",
   },
-];
+  {
+    id: "pedroSobrinho",
+    nome: "Pedro Sobrinho",
+    release:
+      "Bacharel em Jornalismo pela Universidade Federal do Maranhão (UFMA), o jornalista Pedro Sobrinho está sempre atento e misturando tudo com coerência em uma pista de dança. Segundo ele, a boa é se ligar em resenhas, pesquisa musical e outros assuntos afins, tendo como 'cachaça' o rádio e o programa PLUGADO NA MIRANTE FM, de segunda a sexta, das 22h à meia-noite, e domingo, das 15h às 18h. Como extensão do que faz há 39 anos no rádio, Pedro Sobrinho se aventurou no universo da discotecagem. Como DJ, já produziu eventos e tocou com muitos artistas talentosos. Produziu QUARTA BOM QUE DÓI, no Canto do Tonico; TIM MÚSICA, no Armazém da Estrela; POR DO SOM, no L’Apero; e MIXANDO O MUNDO, que passou por várias cidades brasileiras: Fortaleza (CE), Brasília (DF), Rio de Janeiro (RJ) e São Paulo (SP). Já tocou com os DJs maranhenses ZOD, Jorge Choairy, Franklin, Alex Palhano, Galizza, em eventos como Aconselho, Reocupa e Créole Bar. Também esteve ao lado de DJs e artistas brasileiros renomados como DJ Marky, DJ Patife, DJ Marcelinho da Lua e DJ Negralha (Criolina, DJs e produtores Rodrigo Barata e Tiago Pezão), ex-O Rappa, Otto, Moraes e Davi Moreira, Kid Vinil e Nação Zumbi. Seu nome já figurou nos line-ups de festivais como Limonada, BR-135, Ayó de Música, Carcará Mundi, Encantarias, Food & Jazz e Zabumbada, no qual tem prazer de voltar a tocar na versão 2024. Ariano e cheio de inquietação com sua pesquisa musical, o DJ Pedro Sobrinho prioriza nas pistas de dança o 'groove' da música brasileira, explorando diversas vertentes e polirritmias, sem esquecer que seu objetivo é garantir a diversão de quem ouve a diversidade do que ele gosta de tocar. Para a apresentação no Lençóis Instrumental 2024, que comemora os 15 anos do Lençóis Jazz & Blues Festival, o DJ Pedro Sobrinho irá experimentar com jazz, afrobeat, amapiano e elementos da música brasileira com beats. Assim seja!",
+    imagem: pedroSobrinho,
+    data: "03/08",
+    lugar: "Concha Acústica da Lagoa, São Luís",
+    horario: "20h",
+    spotify: "",
+    youtube: "",
+    instagram: "https://www.instagram.com/pedrosobrinho_/",
+    estado: "MA",
+  },
+  {
+    id: "vanessaSerra",
+    nome: "Vanessa Serra",
+    release:
+      "Ludovicense e jornalista cultural formada na UFMA, DJ Vanessa Serra é uma colecionadora e entusiasta da Cultura do Vinil. Em julho, apresentou-se em São Paulo no circuito de discotecagem 100% vinil em locais como Casa de Francisca e Na Manteiga. Estreou como DJ em 2016 e já se apresentou em grandes festivais do Maranhão, como Zabumbada e Lençóis Jazz & Blues Festival. Vanessa é idealizadora do LP Vinil & Poesia - Vol. 1 e apresenta o programa Alvorada na Timbira FM, destacando a música brasileira dos anos 40 a 90 em vinil. Integra o Coletivo UhManas TV.",
 
+    imagem: vanessaSerra,
+    data: "03/08",
+    lugar: "Concha Acústica da Lagoa, São Luís",
+    horario: "23h30",
+    spotify: "",
+    youtube: "",
+    instagram: "https://www.instagram.com/vanessaserrah/",
+    estado: "MA",
+  },
+  {
+    id: "joaquimnZion",
+    nome: "Joaquim Zion",
+    release:
+      "Joaquim Zion é um produtor, pesquisador e colecionador renomado na cena reggae de São Luís e do Maranhão. Desde os anos 1990, ele é pioneiro na discotecagem de vinil, organizando eventos icônicos como o Baile Black da Rádio Zion e a Sexta do Vinil. Como empresário da banda Mystical Roots, ampliou suas conexões com o rap e realizou shows internacionais com artistas jamaicanos. Ele organiza a Feirinha do Vinil e possui um acervo de mais de cinco mil discos. Seu projeto Rádio Zion, com o slogan 'Som pra dançar e pensar', promove a difusão de ritmos clássicos, incluindo reggae, samba, MPB, e afro beat. Joaquim se apresentará na edição de 15 anos do Lençóis Jazz & Blues Festival em 2024.",
+    imagem: joaquinZion,
+    data: "03/08",
+    lugar: "Concha Acústica da Lagoa, São Luís",
+    horario: "23h30",
+    spotify: "",
+    youtube: "",
+    instagram: "https://www.instagram.com/joaquimzion/",
+    estado: "MA",
+  },
+  {
+    id: "jorgeChoairy",
+    nome: "Jorge Choairy",
+    release:
+      "DJ, ator, sonoplasta e pesquisador musical desde 1995, Jorge Choairy é uma referência na capital com seu set poderoso. Como produtor cultural, realiza eventos como 'Baile Perfumado', 'Carnavália' e a feira 'Tropicália' com a Carruagem Produções. Entusiasta da vida, acredita na dissolução através da arte e do amor, usa a música para expressar seu posicionamento social, expande-se pela arte cênica e dissemina paz. Jorge Choairy marcará presença nos 15 anos do Lençóis Jazz & Blues Festival em 2024, no dia 10 de agosto, em Barreirinhas.",
+    imagem: jorgeChoairy,
+    data: "09/08",
+    lugar: "Praça da Matriz, Barreirinhas",
+    horario: "19h",
+    spotify: "",
+    youtube: "",
+    instagram: "https://www.instagram.com/jorge.choairy/",
+    estado: "MA",
+  },
+];
