@@ -9,8 +9,8 @@ const inter = Raleway({
 });
 
 export const metadata = {
-  title: "Festival Lençóis Jazz & Blues",
-  description: "",
+  title: "Festival Lençois Instrumental",
+  description: "Comemorando os 15 anos do Lençois Jazz e Blues Festival ",
 };
 
 export default function RootLayout({ children }) {
