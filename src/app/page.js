@@ -75,7 +75,7 @@ export default function Home() {
                   Barreirinhas:
                 </span>
                 <div>
-                  <b> 9 e 10 </b> de Novembro
+                  <b> 9 e 10 </b> de Agosto
                 </div>
                 <div className="text-xl mt-1">
                   <Link
