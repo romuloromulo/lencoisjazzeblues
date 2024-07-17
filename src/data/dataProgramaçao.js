@@ -28,7 +28,10 @@ export const programaçãoBarreirinhas = [
       { hora: "19h", titulo: "DJ Jorge Choairy" },
       { hora: "20h", titulo: "Sued Richarllys quarteto" },
       { hora: "21h", titulo: "Ana Cañas Canta Belchior" },
-      { hora: "22h", titulo: "Jefferson Gonçalves e Taryn Szpilman" },
+      {
+        hora: "22h",
+        titulo: "Jefferson Gonçalves, Taryn Szpilman e Bittencourt Duo",
+      },
       { hora: "23h", titulo: "Diego Reis (Palco Coreto da Praça da Matriz)" },
     ],
   },

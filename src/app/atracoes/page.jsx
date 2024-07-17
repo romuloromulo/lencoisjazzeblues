@@ -38,17 +38,17 @@ function Atrações() {
             </motion.div>
           </Link>
         </div>
-        <div className="flex items-center justify-between space-x-4 py-4">
+        <div className="flex items-center justify-between py-4 h-20 px-8">
           <Link
             href={`atracoes/${item?.id}`}
             className="flex items-center justify-center"
           >
-            <div className="text-lg text-background-white hover:text-zinc-100 hover:-translate-y-2 duration-300">
+            <div className="text-lg  text-background-white hover:text-zinc-100 hover:-translate-y-2 duration-300">
               {item?.nome}
             </div>{" "}
           </Link>
 
-          <div className="text-primary-pink text-lg">({item?.estado})</div>
+          <div className="text-primary-pink text-lg ml-4">({item?.estado})</div>
         </div>
 
         {/* <div className="border-b mt-1 border-zinc-700 w-[2rem]" /> */}
