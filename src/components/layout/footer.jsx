@@ -48,7 +48,7 @@ function Footer() {
             className="flex items-center center space-x-4 text-black"
           >
             <Link
-              href="https://www.instagram.com/culturarte_maranhao/"
+              href="https://www.instagram.com/lencoisfestival/"
               target="_blank"
             >
               <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
