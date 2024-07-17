@@ -4,6 +4,7 @@ import LogoFestival from "../../public/Logo1.png";
 import Link from "next/link";
 import Shows from "../components/sections/shows";
 import Oficinas from "../components/sections/oficinas";
+import Pousadas from "../components/sections/pousadas";
 import Footer from "../components/layout/footer";
 
 export default function Home() {
@@ -101,6 +102,7 @@ export default function Home() {
       </section>
       <Shows />
       <Oficinas />
+      <Pousadas />
     </main>
   );
 }

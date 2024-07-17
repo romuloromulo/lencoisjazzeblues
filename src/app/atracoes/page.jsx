@@ -15,7 +15,7 @@ function Atrações() {
         key={index}
         className="flex flex-col items-center justify-center md:min-w-[400px] text-center font-semibold text-zinc-100 text-sm pb-2 bg-background-primary rounded-lg"
       >
-        <div className="z-10 rounded-md w-full items-center justify-center  h-[300px]  flex verflow-hidden   mb-2 relative">
+        <div className="z-10 rounded-md w-full items-center justify-center  h-[300px]  flex overflow-hidden   mb-2 relative">
           <Link href={`atracoes/${item?.id}`} className="group ">
             <Image
               src={item?.imagem}
