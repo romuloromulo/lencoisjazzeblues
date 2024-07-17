@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 // import FooterP from "../../../public/images/logos/patrocineo-footer.jpeg";
 import patrocinio from "../../../public/patrocinio2.png";
-import { SiInstagram, SiFacebook } from "react-icons/si";
+import { SiInstagram, SiFacebook, SiYoutube } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
 import Logo from "../../../public/Logo.png";
 import Link from "next/link";
@@ -61,6 +61,14 @@ function Footer() {
             >
               <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
                 <SiFacebook size={22} />
+              </div>
+            </Link>
+            <Link
+              href="https://www.youtube.com/@lencoisjazzebluesfestival"
+              target="_blank"
+            >
+              <div className="bg-gradient-to-r from-primary-yellow  to-primary-pink rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
+                <SiYoutube size={22} />
               </div>
             </Link>
           </div>
