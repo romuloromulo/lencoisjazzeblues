@@ -63,9 +63,9 @@ function Pousadas() {
         <div className="px-4 md:px-8 py-4 mt-4 w-full md:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pousadas.map((pousada, index) => (
             <Link href={pousada.link} key={index}>
-              <div>
-                <div className="flex flex-col items-center overflow-hidden rounded-full">
-                  <div className="relative  w-56 h-56 overflow-hidden rounded-full transform transition-transform duration-300 hover:scale-110">
+              <div className=" flex flex-col justify-center items-center">
+                <div className="overflow-hidden rounded-full  w-56 h-56">
+                  <div className="relative w-56 h-56 transform transition-transform duration-300 hover:scale-110">
                     <Image
                       src={pousada.src}
                       layout="fill"
