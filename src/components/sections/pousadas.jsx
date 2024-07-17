@@ -1,9 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import dosLencois from "../../../public/pousadas/dosLencois.png";
+import dosLencois from "../../../public/pousadas/teste.jpg";
 import doPorto from "../../../public/pousadas/pousadaDoPorto.png";
 import doRancho from "../../../public/pousadas/pousadaDoRancho.png";
 import doRio from "../../../public/pousadas/pousadaDoRio.png";
+import granLençois from "../../../public/pousadas/granLençois.png";
+import portoPreguiças from "../../../public/pousadas/portoPreguiças.png";
 import Link from "next/link";
 
 function Pousadas() {
@@ -28,6 +30,16 @@ function Pousadas() {
       name: "Pousada do Rio",
       link: "https://www.pousadadorioma.com.br/",
     },
+    {
+      src: granLençois,
+      name: "Gran Lençóis Flat",
+      link: "https://granlencoisflat.com/",
+    },
+    {
+      src: portoPreguiças,
+      name: "Porto Preguiças Resort",
+      link: "https://portopreguicas.com.br/index.php",
+    },
   ];
 
   return (
@@ -40,15 +52,15 @@ function Pousadas() {
           <div className="flex items-center justify-center">
             <h1 className="text-6xl rounded-full shadow-sm font-bold p-4 px-6 bg-background-primary text-center">
               <span className="font-bold md:text-7xl text-5xl text-background-white my-auto">
-                Pousadas
+                Hospedagem
               </span>
             </h1>
           </div>
           <p className="mt-2 font-bold text-lg">
-            Conheça as pousadas indicadas pelo festival!
+            Conheça as pousadas e hotéis indicados pelo festival!
           </p>
         </div>
-        <div className="px-4 md:px-8 py-4 mt-4 w-full md:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="px-4 md:px-8 py-4 mt-4 w-full md:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pousadas.map((pousada, index) => (
             <Link href={pousada.link} key={index}>
               <div>
@@ -57,7 +69,7 @@ function Pousadas() {
                     <Image
                       src={pousada.src}
                       layout="fill"
-                      //   objectFit="cover"
+                      objectFit="cover"
                       alt={pousada.name}
                     />
                   </div>
