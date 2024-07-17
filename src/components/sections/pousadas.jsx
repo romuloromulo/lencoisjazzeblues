@@ -53,7 +53,7 @@ function Pousadas() {
             <Link href={pousada.link} key={index}>
               <div>
                 <div className="flex flex-col items-center overflow-hidden rounded-full">
-                  <div className="relative w-32 h-32 md:w-56 md:h-56 overflow-hidden rounded-lg transform transition-transform duration-300 hover:scale-110">
+                  <div className="relative  w-56 h-56 overflow-hidden rounded-full transform transition-transform duration-300 hover:scale-110">
                     <Image
                       src={pousada.src}
                       layout="fill"
