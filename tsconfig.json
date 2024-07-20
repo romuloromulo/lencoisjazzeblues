@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/sections/pousadas.jsx"  ],
   "exclude": [
     "node_modules"
   ]

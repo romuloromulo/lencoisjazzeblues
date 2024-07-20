@@ -6,6 +6,7 @@ import doRancho from "../../../public/pousadas/pousadaDoRancho.png";
 import doRio from "../../../public/pousadas/pousadaDoRio.png";
 import granLençois from "../../../public/pousadas/granLençois.png";
 import portoPreguiças from "../../../public/pousadas/portoPreguiças.png";
+import murici from "../../../public/pousadas/murici.jpg";
 import Link from "next/link";
 
 function Pousadas() {
@@ -40,6 +41,11 @@ function Pousadas() {
       name: "Porto Preguiças Resort",
       link: "https://portopreguicas.com.br/index.php",
     },
+    {
+      src: murici,
+      name: "Pousada Murici",
+      link: "https://www.instagram.com/pousadamurici",
+    },
   ];
 
   return (
@@ -56,8 +62,8 @@ function Pousadas() {
               </span>
             </h1>
           </div>
-          <p className="mt-2 font-bold text-lg">
-            Conheça as pousadas e hotéis indicados pelo festival!
+          <p className="mt-2 font-semibold text-lg">
+            Conheça as pousadas e hotéis parceiros do festival!
           </p>
         </div>
         <div className="px-4 md:px-8 py-4 mt-4 w-full md:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
