@@ -47,6 +47,15 @@ export default function Navbar() {
                 Sobre
               </li>
             </Link>
+            <Link href="/oficinas">
+              <li
+                className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
+                  pathname === "/oficinas" ? "text-orange-500" : ""
+                }`}
+              >
+                Oficinas
+              </li>
+            </Link>
             <Link href="/atracoes">
               <li
                 className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
@@ -63,15 +72,6 @@ export default function Navbar() {
                 }`}
               >
                 Programação
-              </li>
-            </Link>
-            <Link href="/oficinas">
-              <li
-                className={`hover:bg-neutral-800/80 duration-300 rounded-md p-2 ${
-                  pathname === "/oficinas" ? "text-orange-500" : ""
-                }`}
-              >
-                Oficinas
               </li>
             </Link>
           </ul>
@@ -162,6 +162,16 @@ export default function Navbar() {
             </li>
           </Link>
           <div className="flex-grow border-t z-10 border-neutral-700"></div>
+          <Link href="/oficinas">
+            <li
+              className={`p-4 hover:bg-neutral-800/80 rounded-md ${
+                pathname === "/oficinas" ? "bg-neutral-800/80" : ""
+              }`}
+            >
+              Oficinas
+            </li>
+          </Link>
+          <div className="flex-grow border-t z-10 border-neutral-700"></div>
           <Link href="/atracoes">
             <li
               className={`p-4 hover:bg-neutral-800/80 rounded-md ${
@@ -179,15 +189,6 @@ export default function Navbar() {
               }`}
             >
               Programação
-            </li>
-          </Link>
-          <Link href="/oficinas">
-            <li
-              className={`p-4 hover:bg-neutral-800/80 rounded-md ${
-                pathname === "/oficinas" ? "bg-neutral-800/80" : ""
-              }`}
-            >
-              Oficinas
             </li>
           </Link>
         </ul>
