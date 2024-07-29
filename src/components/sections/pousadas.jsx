@@ -54,7 +54,7 @@ function Pousadas() {
       className="relative bg-background-white mx-auto min-h-svh pb-20 overflow-hidden z-20"
     >
       <div className="sm:container mx-auto flex flex-col items-center justify-center z-10">
-        <div className="sm:p-4 my-12 flex flex-col items-center justify-center">
+        <div className="sm:p-4 my-12 flex flex-col items-center justify-center px-8">
           <div className="flex items-center justify-center">
             <h1 className="text-6xl rounded-full shadow-sm font-bold p-4 px-6 bg-background-primary text-center">
               <span className="font-bold md:text-7xl text-5xl text-background-white my-auto">
@@ -62,11 +62,11 @@ function Pousadas() {
               </span>
             </h1>
           </div>
-          <p className="mt-2 font-semibold text-lg">
+          <p className="mt-2 font-semibold text-lg text-center w-[80%] md:w-full">
             Conheça as pousadas e hotéis parceiros do festival!
           </p>
         </div>
-        <div className="px-4 md:px-8 py-4 mt-4 w-full md:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="px-4 md:px-8 w-full md:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pousadas.map((pousada, index) => (
             <Link href={pousada.link} key={index}>
               <div className=" flex flex-col justify-center items-center">

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import BannerComponent from "../../components/layout/banner";
 import { SlArrowDown } from "react-icons/sl";
 import {
@@ -22,8 +22,8 @@ function Page() {
 
   const renderWorkshops = (workshops, cityName) => (
     <div className="mt-12 w-full ">
-      <div className="p-4 text-center md:text-start  md:px-6 bg-background-primary  rounded-full shadow-sm ">
-        <h1 className="text-3xl md:text-8xl font-bold text-background-white md:px-8 flex justify-between items-center">
+      <div className="p-4 text-center md:text-start md:px-6 bg-background-primary rounded-full shadow-sm">
+        <h1 className="text-4xl md:text-8xl font-bold text-background-white md:px-8 flex justify-between items-center">
           {cityName}
           <Image
             src={teste}
@@ -74,8 +74,7 @@ function Page() {
                   }}
                 >
                   <div className="py-2 text-xl font-bold mb-12">
-                    <p className>{oficina.descricao}</p>
-
+                    <p>{oficina.descricao}</p>
                     <p>Inscrição: {oficina.inscricao}</p>
                   </div>
                 </div>
@@ -85,9 +84,9 @@ function Page() {
         </div>
       ))}
       {cityName === "São Luís" ? (
-        <div className="w-full flex items-center justify-center pb-12 pt-4 ">
+        <div className="w-full flex items-center justify-center pb-12 pt-4">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfAPJLtcqpNVPEcGn3tDLrmmX2tK9rNl3oxEp0un52WOBqrfA/viewform">
-            <div className="bg-background-primary  hover:text-zinc-100 rounded-lg w-full  py-6 px-8 flex justify-center items-center  text-3xl sm:text-5xl font-bold text-white text-center duration-300 ease-out hover:-translate-y-[8%]">
+            <div className="bg-background-primary hover:text-zinc-100 rounded-lg w-full py-6 px-8 flex justify-center items-center text-3xl sm:text-5xl font-bold text-white text-center duration-300 ease-out hover:-translate-y-[8%]">
               Se increva
             </div>
           </Link>
@@ -99,9 +98,9 @@ function Page() {
   );
 
   return (
-    <div className="bg-background-white min-h-screen ">
+    <div className="bg-background-white min-h-screen flex flex-col">
       <BannerComponent title="Oficinas" />
-      <div className="container md:px-24 ">
+      <div className="flex-grow container md:px-24">
         {renderWorkshops(saoLuisWorkshops, "São Luís")}
         {renderWorkshops(barreirinhasWorkshops, "Barreirinhas")}
       </div>

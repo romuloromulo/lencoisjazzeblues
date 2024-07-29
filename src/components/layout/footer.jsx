@@ -10,7 +10,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <section id="Footer" className="flex flex-col items-center bg-neutral-900">
-      <div className="relative w-full md:containermd:mt-32  p-0 bg-transparent  md:p-8">
+      <div className="relative w-full md:container md:mt-20  p-0 bg-transparent  md:p-8">
         <Image
           src={patrocinio}
           className="object-cover md:object-contain sm:block w-ful"
