@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import dosLencois from "../../../public/pousadas/teste.jpg";
-import doPorto from "../../../public/pousadas/pousadaDoPorto.png";
 import doRancho from "../../../public/pousadas/pousadaDoRancho.png";
 import doRio from "../../../public/pousadas/pousadaDoRio.png";
 import granLençois from "../../../public/pousadas/granLençois.png";
@@ -15,11 +14,6 @@ function Pousadas() {
       src: dosLencois,
       name: "Pousada Paraiso dos Lençóis",
       link: "https://www.pousadaparaisodoslencois.com.br/",
-    },
-    {
-      src: doPorto,
-      name: "Pousada do Porto",
-      link: "https://www.pousadadoporto.com/",
     },
     {
       src: doRancho,
