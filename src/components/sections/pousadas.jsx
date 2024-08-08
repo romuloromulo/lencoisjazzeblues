@@ -23,8 +23,8 @@ function Pousadas() {
     },
     {
       src: doRancho,
-      name: "Pousada do Rancho",
-      link: "https://pousadadorancho.com.br/",
+      name: "Pousada do Riacho",
+      link: "https://www.instagram.com/pousadadoriacho/",
     },
     {
       src: doRio,
