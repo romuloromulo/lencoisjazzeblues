@@ -6,6 +6,7 @@ import Shows from "../components/sections/shows";
 import Oficinas from "../components/sections/oficinas";
 import Pousadas from "../components/sections/pousadas";
 import Footer from "../components/layout/footer";
+// import Livro from "../../public/Livro_lencois.pdf";
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
           </div>
           <div className="font-thin">apresentam</div>
         </div>
-        <div className="relative z-20 w-full flex flex-col md:flex-row items-center justify-center sm:space-x-36">
+        <div className="relative z-20 w-full flex md:flex-row flex-col items-center justify-center sm:space-x-36">
           <div>
             <Image
               src={LogoFestival}
@@ -43,7 +44,7 @@ export default function Home() {
               height={450}
             />
           </div>
-          <div className="text-center flex flex-col mx-auto -mt-4 sm:mt-6 z-50">
+          {/* <div className="text-center flex flex-col mx-auto -mt-4 sm:mt-6 z-50">
             <div className="mt-8 flex flex-col items-center w-auto">
               <div className="text-zinc-100 text-3xl md:text-4xl lg:flex-col lg:flex">
                 <span className="font-bold md:text-7xl text-5xl bg-gradient-to-r from-primary-pink to-primary-yellow bg-clip-text text-transparent">
@@ -96,6 +97,25 @@ export default function Home() {
                   Programação
                 </div>
               </Link>
+            </div>
+          </div> */}
+          <div className="text-center flex flex-col mx-auto -mt-12 sm:mt-6 z-50">
+            <div className="pb-8">
+              <div className="text-zinc-100 text-3xl md:text-4xl lg:flex-col lg:flex">
+                <span className="font-bold md:text-5xl text-5xl bg-gradient-to-r from-primary-yellow to-primary-pink bg-clip-text text-transparent ">
+                  Baixe nosso livro!
+                </span>
+              </div>
+            </div>
+            <div className="w-full mx-auto sm:w-full mb-8 md:w-[12rem] h-auto flex justify-center items-center">
+              <a
+                href="/Livro_lencois.pdf"
+                target="_blank" // Substitua pelo caminho do arquivo PDF
+                download="Lençóis Instrumental" // Substitua pelo nome sugerido para o arquivo
+                className="bg-gradient-to-r from-orange-500 via-primary-pink to-primary-yellow hover:bg-transparent hover:text-zinc-100 rounded-lg w-full sm:w-[12rem] py-4 px-8 flex justify-center items-center text-2xl font-bold text-white text-center duration-300 ease-out hover:-translate-y-[15%]"
+              >
+                Baixar
+              </a>
             </div>
           </div>
         </div>
