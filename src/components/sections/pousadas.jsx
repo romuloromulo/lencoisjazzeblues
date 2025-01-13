@@ -5,7 +5,6 @@ import doRancho from "../../../public/pousadas/pousadaDoRancho.png";
 import doRio from "../../../public/pousadas/pousadaDoRio.png";
 import granLençois from "../../../public/pousadas/granLençois.png";
 import portoPreguiças from "../../../public/pousadas/portoPreguiças.png";
-import paraisoDoCaju from "../../../public/pousadas/paraisoDocaju.png";
 import murici from "../../../public/pousadas/murici.jpg";
 import Link from "next/link";
 
@@ -16,11 +15,11 @@ function Pousadas() {
       name: "Pousada Paraiso dos Lençóis",
       link: "https://www.pousadaparaisodoslencois.com.br/",
     },
-    {
-      src: paraisoDoCaju,
-      name: "Paraíso do Caju",
-      link: "https://paraisodocaju.com/",
-    },
+    // {
+    //   src: paraisoDoCaju,
+    //   name: "Paraíso do Caju",
+    //   link: "https://paraisodocaju.com/",
+    // },
     {
       src: doRancho,
       name: "Pousada do Riacho",
